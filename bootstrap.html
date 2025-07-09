@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI in Everyday Life</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-success bg-success">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white" href="#">AI in Everyday Life</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#gallery">Use Cases</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#blog">Blog</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Carousel -->
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.unsplash.com/photo-1581090700227-1e8e5f29dce8?auto=format&fit=crop&w=1600&q=80" class="d-block w-100" alt="AI">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1616856706265-10860f79a1d1?auto=format&fit=crop&w=1600&q=80" class="d-block w-100" alt="Tech">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1600&q=80" class="d-block w-100" alt="Automation">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- Gallery Section -->
+<div class="container my-5" id="gallery">
+  <h2 class="text-center mb-4">AI Use Cases</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1598908315682-5b6402268d61?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="YouTube">
+        <div class="card-body">
+          <h5 class="card-title">🎥 YouTube Recommendations</h5>
+          <p class="card-text">AI studies your watch history and behavior to suggest videos that match your preferences, helping you discover new content you’ll enjoy.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Voice Assistant">
+        <div class="card-body">
+          <h5 class="card-title">🗣️ Voice Assistants</h5>
+          <p class="card-text">Smart voice assistants like Alexa, Siri, and Google Assistant use AI to recognize voice commands and provide instant help, reminders, and more.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Face Unlock">
+        <div class="card-body">
+          <h5 class="card-title">🔓 Face Unlock</h5>
+          <p class="card-text">AI-powered facial recognition helps unlock devices faster and more securely by analyzing your unique facial features.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1611078489935-5e1c0c7b8e4b?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Shopping">
+        <div class="card-body">
+          <h5 class="card-title">🛍️ Shopping Suggestions</h5>
+          <p class="card-text">E-commerce sites use AI to recommend products based on your search and buying behavior, improving your shopping experience.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Maps">
+        <div class="card-body">
+          <h5 class="card-title">🗺️ Smart Navigation</h5>
+          <p class="card-text">Apps like Google Maps use AI to analyze traffic in real-time and guide you on the fastest and safest routes to your destination.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Chatbot">
+        <div class="card-body">
+          <h5 class="card-title">🤖 Chatbots</h5>
+          <p class="card-text">Chatbots use AI to answer questions, solve problems, and assist users 24/7 on websites and apps without human help.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Blog Section -->
+<div class="container my-5" id="blog">
+  <h2 class="text-center mb-4">📝 My Blog: AI Thoughts</h2>
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      <div class="bg-light p-4 rounded shadow-sm">
+        <h5>AI’s Role in Our Daily Lives</h5>
+        <p>
+          Artificial Intelligence is transforming the way we live every day — from the moment we unlock our phones in the morning to the personalized videos we enjoy online.
+          It's quietly working behind the scenes, making our lives more convenient, efficient, and fun.
+        </p>
+        <p class="text-muted text-end">– Ankita Shelar</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-success text-white text-center py-3">
+  <p class="mb-0">© 2025 AI in Everyday Life | Designed by Ankita Shelar</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
